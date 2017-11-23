@@ -1,0 +1,66 @@
+---
+title: "An automated infrared spectral analysis using machine learning"
+author: "Ray Gunawidjaja"
+date: "November 22, 2017"
+output: html_document
+---
+</br>
+
+<b>Problem statement</b></br>
+<i>What is the problem you want to solve?</i>
+
+<p align="justify">
+With a rapid advancement in the fabrication of lightweight, compact, high-speed, and low-cost electronic/optoelectronic devices, the approach to using infrared spectroscopy for chemical identification is becoming widespread. For instance, Si-Ware Systems utilizes MEMS technology to fabricate an FTIR system in a chip size module (http://www.neospectra.com/products-overview/), in contrast to the traditional bench-top and bulky FTIR system. While it is relatively straightforward to correlate the infrared spectra of a defined class of compounds or a pure material, the spectra obtained from an FTIR measurement are generally ambiguous; it requires trained personnel to interpret the data, the process is tedious process, and is prone to errors. Thus, there is a need to establish a routine algorithm that yield a reliable and consistent result. The goal of this project is to improve the accuracy in a computer based chemical characterization of materials using IR spectroscopy.
+</p>
+
+<b>How does it benefit the client</b></br>
+<i>Who is your client and why do they care about this problem? What will your client DO or DECIDE based on your analysis that they would not have otherwise?</i>
+
+<p align="justify">
+The client is an FTIR spectroscopy sensor manufacturer that desire a universal method for unambiguously identifying the chemical compounds of an unknown material from the measured FTIR spectra. The conventional approach used to identify FTIR spectra is to mathematically compare the unknown spectra against all possible spectra within the database (i.e., a spectral matching approach). The reference compounds with similar spectral features to the unknown material are ranked according to their similarity index. If it is done on a defined class of material, this process is very likely to yield an accurate result; however, for an entirely unknown material it will require a trained professional to then rationalize the result. The human interference is not necessarily consistent and error-proof. The proposed approach is to utilize machine learning algorithms (e.g., neural network and cluster analysis) to take into account the chemical information in combination with the spectral matching approach. A successful model is expected to yield an error proof routine to chemical compound identification that yields consistent results. 
+</p>
+
+<b>Data source</b></br>
+<i>What data are you going to use for this? How will you acquire the data?</i>
+
+The list of required data sets are as follows:</br>
+<p align="justify">
+1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
+
+2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
+
+3. A list of representative FTIR spectra that have been properly assigned will be downloaded from NIST website (http://cccbdb.nist.gov); it will be used to verify the accuracy of the peak assignment that rely on the group frequency table.  
+</p>
+
+<b>Proposed approach</b></br>
+<i>Briefly outline your approach to solving this problem while keeping in mind that it might change later.</i>
+
+The tasks for this project are as follows:</br>
+<p align="justify">
+1. Download the appropriate data sets from the sources listed above.
+
+2. Perform cluster analysis of the reference data set to reduce the data size to a reasonable number (e.g., by chemical elements, molecular weight).
+
+3. Standardize reference spectra (uniformize units, perform spectra treatments as needed, e.g., interpolation, smoothing).
+
+4. Elucidate the spectral features by correlating with information provided in the group frequency table and utilizing EDA. Verify the accuracy of the peak assignment by using representative data from fully assigned spectra. 
+
+5. Develop models for materials identification based on a combination of spectral matching algorithms and machine learning tools (e.g., neural network, cluster analysis).
+
+6. Select relevant test data sets that range form simple to hard and test the model. Improve the model as needed.
+
+7. Build a user friendly GUI.
+
+8. Deploy application and present results.
+</p>
+
+<b>Deliverable</b></br>
+<i>What are your deliverable? These typically include code, along with a paper and/or a slide of deck.</i>
+<p align="justify">
+As part of the requirement for completing this project, the following is the list of deliverables: 
+
+1. <u>Code</u>. Well-documented in github.
+2. <u>Final paper</u>. Uploaded in github that contains the following elements: statement of problem, approach, finding, ideas for further research, and up to 3 concrete recommendations for your client on how to use your findings. 
+3. <u>Slide deck</u>. Use any standard presentation tools to create your deck. 
+4. <u>Shared project</u>. Present in an office hour, create an online video, or writing a blog post.
+</p>
