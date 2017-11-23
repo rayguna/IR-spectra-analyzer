@@ -24,7 +24,7 @@ The client is an FTIR spectroscopy sensor manufacturer that desires a universal 
 <i>What data are you going to use for this? How will you acquire the data?</i>
 
 The list of required data sets are as follows:</br>
-<p>
+<p align="justify">
 1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
 
 2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
@@ -36,7 +36,7 @@ The list of required data sets are as follows:</br>
 <i>Briefly outline your approach to solving this problem while keeping in mind that it might change later.</i>
 
 The tasks for this project are as follows:</br>
-<p>
+<p align="justify">
 1. Download the appropriate data sets from the sources listed above.
 
 2. Perform cluster analysis of the reference data set to reduce the data size to a reasonable number (e.g., by chemical elements, molecular weight).
