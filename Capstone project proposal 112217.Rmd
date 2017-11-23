@@ -17,14 +17,14 @@ With a rapid advancement in the fabrication of lightweight, compact, high-speed,
 <i>Who is your client and why do they care about this problem? What will your client DO or DECIDE based on your analysis that they would not have otherwise?</i>
 
 <p align="justify">
-The client is an FTIR spectroscopy sensor manufacturer that desire a universal method for unambiguously identifying the chemical compounds of an unknown material from the measured FTIR spectra. The conventional approach used to identify FTIR spectra is to mathematically compare the unknown spectra against all possible spectra within the database (i.e., a spectral matching approach). The reference compounds with similar spectral features to the unknown material are ranked according to their similarity index. If it is done on a defined class of material, this process is very likely to yield an accurate result; however, for an entirely unknown material it will require a trained professional to then rationalize the result. The human interference is not necessarily consistent and error-proof. The proposed approach is to utilize machine learning algorithms (e.g., neural network and cluster analysis) to take into account the chemical information in combination with the spectral matching approach. A successful model is expected to yield an error proof routine to chemical compound identification that yields consistent results. 
+The client is an FTIR spectroscopy sensor manufacturer that desires a universal method for unambiguously identifying the chemical compounds of an unknown material from the measured FTIR spectra. The conventional approach used to identify FTIR spectra is to mathematically compare the unknown spectra against all possible spectra within the database (i.e., a spectral matching approach). The reference compounds with similar spectral features to the unknown material are ranked according to their similarity index. If it is done on a defined class of material, this process is very likely to yield an accurate result; however, for an entirely unknown material it will require a trained professional to then rationalize the result. The human interference is not necessarily consistent and error-proof. The proposed approach is to utilize machine learning algorithms (e.g., neural network and cluster analysis) to take into account the chemical information in combination with the spectral matching approach. A successful model is expected to yield an error proof routine to chemical compound identification that yields consistent results. 
 </p>
 
 <b>Data source</b></br>
 <i>What data are you going to use for this? How will you acquire the data?</i>
 
 The list of required data sets are as follows:</br>
-<p align="justify">
+<p>
 1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
 
 2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
@@ -36,7 +36,7 @@ The list of required data sets are as follows:</br>
 <i>Briefly outline your approach to solving this problem while keeping in mind that it might change later.</i>
 
 The tasks for this project are as follows:</br>
-<p align="justify">
+<p>
 1. Download the appropriate data sets from the sources listed above.
 
 2. Perform cluster analysis of the reference data set to reduce the data size to a reasonable number (e.g., by chemical elements, molecular weight).
