@@ -25,13 +25,13 @@ The client is an FTIR spectroscopy sensor manufacturer that desires a universal 
 
 The list of required data sets are as follows:</br>
 <p align="justify">
-&ensp 1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
+1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
 </p>
 <p align="justify">
-&ensp 2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
+2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
 </p>
 <p align="justify">
-&ensp 3. A list of representative FTIR spectra that have been properly assigned will be downloaded from NIST website (http://cccbdb.nist.gov); it will be used to verify the accuracy of the peak assignment that rely on the group frequency table.  
+3. A list of representative FTIR spectra that have been properly assigned will be downloaded from NIST website (http://cccbdb.nist.gov); it will be used to verify the accuracy of the peak assignment that rely on the group frequency table.  
 </p>
 <p align="justify">
   
