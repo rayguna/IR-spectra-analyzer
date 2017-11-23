@@ -25,13 +25,13 @@ The client is an FTIR spectroscopy sensor manufacturer that desires a universal 
 
 The list of required data sets are as follows:</br>
 <p align="justify">
-1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
+&ensp 1. The main reference/training data set of over 40,000 spectra of known chemical compounds will be automatically downloaded from NIST website (http://webbook.nist.gov/chemistry/vib-ser/) with the aid of a python script.
 </p>
 <p align="justify">
-2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
+&ensp 2. A group frequency table will be downloaded or web-scraped from a certain website to aid in chemical group assignment of occuring peaks in the FTIR spectra. There are a number of websites that carry this information, but the appropriate website will be selected for its reliable source of information and completeness.
 </p>
 <p align="justify">
-3. A list of representative FTIR spectra that have been properly assigned will be downloaded from NIST website (http://cccbdb.nist.gov); it will be used to verify the accuracy of the peak assignment that rely on the group frequency table.  
+&ensp 3. A list of representative FTIR spectra that have been properly assigned will be downloaded from NIST website (http://cccbdb.nist.gov); it will be used to verify the accuracy of the peak assignment that rely on the group frequency table.  
 </p>
 <p align="justify">
   
@@ -40,28 +40,28 @@ The list of required data sets are as follows:</br>
 
 The tasks for this project are as follows:</br>
 <p align="justify">
-1. Download the appropriate data sets from the sources listed above.
+&ensp 1. Download the appropriate data sets from the sources listed above.
 </p>
 <p align="justify">
-2. Perform cluster analysis of the reference data set to reduce the data size to a reasonable number (e.g., by chemical elements, molecular weight).
+&ensp 2. Perform cluster analysis of the reference data set to reduce the data size to a reasonable number (e.g., by chemical elements, &ensp molecular weight).
 </p>
 <p align="justify">
 3. Standardize reference spectra (uniformize units, perform spectra treatments as needed, e.g., interpolation, smoothing).
 </p>
 <p align="justify">
-&ensp4. Elucidate the spectral features by correlating with information provided in the group frequency table and utilizing EDA. Verify the accuracy of the peak assignment by using representative data from fully assigned spectra. 
+&ensp 4. Elucidate the spectral features by correlating with information provided in the group frequency table and utilizing EDA. Verify &ensp the accuracy of the peak assignment by using representative data from fully assigned spectra. 
 </p>
 <p align="justify">
-&ensp5. Develop models for materials identification based on a combination of spectral matching algorithms and machine learning tools (e.g., neural network, cluster analysis).
+&ensp 5. Develop models for materials identification based on a combination of spectral matching algorithms and machine learning tools &ensp (e.g., neural network, cluster analysis).
 </p>
 <p align="justify">
-&ensp6. Select relevant test data sets that range form simple to hard and test the model. Improve the model as needed.
+&ensp 6. Select relevant test data sets that range form simple to hard and test the model. Improve the model as needed.
 </p>
 <p align="justify">
-&ensp7. Build a user friendly GUI.
+&ensp 7. Build a user friendly GUI.
 </p>
 <p align="justify">
-&ensp8. Deploy application and present results.
+&ensp 8. Deploy application and present results.
 </p>
 <p align="justify">
 
@@ -71,14 +71,14 @@ The tasks for this project are as follows:</br>
 As part of the requirement for completing this project, the following is the list of deliverables: 
 </p>
 <p align="justify">
-&ensp1. <u>Code</u>. Well-documented in github.
+&ensp 1. <u>Code</u>. Well-documented in github.
 </p>
 <p align="justify">
-&ensp2. <u>Final paper</u>. Uploaded in github that contains the following elements: statement of problem, approach, finding, ideas for further research, and up to 3 concrete recommendations for your client on how to use your findings. 
+&ensp 2. <u>Final paper</u>. Uploaded in github that contains the following elements: statement of problem, approach, finding, ideas for &ensp further research, and up to 3 concrete recommendations for your client on how to use your findings. 
 </p>
 <p align="justify">
-&ensp3. <u>Slide deck</u>. Use any standard presentation tools to create your deck. 
+&ensp 3. <u>Slide deck</u>. Use any standard presentation tools to create your deck. 
 </p>
 <p align="justify">
-&ensp4. <u>Shared project</u>. Present in an office hour, create an online video, or writing a blog post.
+&ensp 4. <u>Shared project</u>. Present in an office hour, create an online video, or writing a blog post.
 </p>
