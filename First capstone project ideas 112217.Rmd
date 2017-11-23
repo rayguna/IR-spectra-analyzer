@@ -9,7 +9,7 @@ output: html_document
 <u>1. Analysis of infrared spectra </u><br/>
 <b>Motivation of study:</b><br/>
 <p style="text-align:justify"> 
-Infrared (IR) spectroscopy is a simple, realiable technique that reveals the
+Infrared (IR) spectroscopy is a simple, reliable technique that reveals the
 chemical structure of organic and inorganic materials. It is used
 widely in basic research and consumer and industrial products.
 Generally speaking, the peaks seen in an IR spectrum represent the
