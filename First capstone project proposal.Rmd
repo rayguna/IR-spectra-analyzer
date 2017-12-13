@@ -58,7 +58,7 @@ The tasks for this project are as follows:</br>
 6. Select relevant test data sets that range form simple to hard and test the model. Improve the model as needed.
 </p>
 <p align="justify">
-7. Build a user friendly GUI.
+7. Build a user friendly GUI (if time allows).
 </p>
 <p align="justify">
 8. Deploy application and present results.
