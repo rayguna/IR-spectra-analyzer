@@ -1,5 +1,5 @@
 ---
-title: "Capstone project proposal: IR spectral analysis of organic compounds via machine learning approach"
+title: "IR spectral analysis of organic compounds via machine learning approach"
 author: "Ray Gunawidjaja"
 date: "November 22, 2017"
 output: html_document
